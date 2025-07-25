@@ -17,6 +17,7 @@ int main(){
         }cout << endl;
     }
     cout << endl;
+
     //2
     for(int i=0;i<n;i++){
         for(int j=n;j>i;j--){
@@ -24,6 +25,7 @@ int main(){
         }cout << endl;
     }
     cout << endl;
+
     //3
     for(int i=0;i<n;i++){
         for(int j=1;j<=n;j++){
@@ -35,6 +37,7 @@ int main(){
         }cout<< endl;
     }
     cout << endl;
+
     //4
     for(int i=1; i<=n; i++){
         for(int j=1; j<=n-i; j++){
@@ -46,6 +49,7 @@ int main(){
         cout << endl;
     }
     cout << endl;
+    
     //5
     int x=1;
     for(int i=1;i<=n;i++){
