@@ -121,4 +121,20 @@ do {
   <li>Repeat the loop until <code>i</code> reaches 5.</li>
   <li>Exit the loop and end the program.</li>
 </ol>
+<br>
+<h2>Algorithm: Print Numbers from 0 to 10 using <code>for</code> Loop in C++</h2>
 
+<ol>
+  <li>Start the program.</li>
+  <li>Use a <code>for</code> loop with the following parts:
+    <ul>
+      <li><strong>Initialization:</strong> Set <code>i = 0</code></li>
+      <li><strong>Condition:</strong> Loop runs while <code>i &lt;= 10</code></li>
+      <li><strong>Update:</strong> Increment <code>i</code> by 1 after each iteration</li>
+    </ul>
+  </li>
+  <li>Inside the loop, print the value of <code>i</code> followed by a newline.</li>
+  <li>Repeat until the value of <code>i</code> becomes 11 (loop terminates).</li>
+  <li>End the program.</li>
+</ol>
+<br>
