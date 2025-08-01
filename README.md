@@ -143,3 +143,20 @@ do {
   <li>End the program.</li>
 </ol>
 <br>
+<h2>Algorithm: Reverse Last 5 Digits of PRN using <code>do-while</code> Loop in C++</h2>
+
+<ol>
+  <li>Start the program.</li>
+  <li>Declare an integer variable <code>PRN</code>.</li>
+  <li>Prompt the user to enter the last 5 digits of their PRN and store it in <code>PRN</code>.</li>
+  <li>Print the message: <code>"Reversed PRN: "</code></li>
+  <li>Start a <code>do-while</code> loop:
+    <ul>
+      <li>Extract the last digit of <code>PRN</code> using <code>PRN % 10</code> and store it in <code>digit</code>.</li>
+      <li>Print <code>digit</code>.</li>
+      <li>Remove the last digit from <code>PRN</code> using <code>PRN = PRN / 10</code>.</li>
+    </ul>
+  </li>
+  <li>Continue the loop until <code>PRN != 0</code>.</li>
+  <li>End the program.</li>
+</ol>
