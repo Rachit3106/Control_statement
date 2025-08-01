@@ -1,5 +1,5 @@
 /*
-Name: RAchit Deshpande
+Name: Rachit Deshpande
 PRN:-24070123035
 Batch:-A2
 */
