@@ -122,19 +122,24 @@ do {
   <li>Exit the loop and end the program.</li>
 </ol>
 <br>
-<h2>Algorithm: Print Numbers from 0 to 10 using <code>for</code> Loop in C++</h2>
+<h2>Algorithm: Print Even Numbers from 0 to 10 using <code>for</code> Loop (Increment Inside)</h2>
 
 <ol>
   <li>Start the program.</li>
-  <li>Use a <code>for</code> loop with the following parts:
+  <li>Use a <code>for</code> loop with the following:
     <ul>
       <li><strong>Initialization:</strong> Set <code>i = 0</code></li>
-      <li><strong>Condition:</strong> Loop runs while <code>i &lt;= 10</code></li>
-      <li><strong>Update:</strong> Increment <code>i</code> by 1 after each iteration</li>
+      <li><strong>Condition:</strong> Continue loop while <code>i &lt;= 10</code></li>
+      <li><strong>Increment:</strong> Leave it blank in the loop header</li>
     </ul>
   </li>
-  <li>Inside the loop, print the value of <code>i</code> followed by a newline.</li>
-  <li>Repeat until the value of <code>i</code> becomes 11 (loop terminates).</li>
+  <li>Inside the loop body:
+    <ul>
+      <li>Print the current value of <code>i</code>.</li>
+      <li>Increment <code>i</code> by 2 using <code>i = i + 2</code> to print only even numbers.</li>
+    </ul>
+  </li>
+  <li>Repeat until <code>i</code> becomes greater than 10.</li>
   <li>End the program.</li>
 </ol>
 <br>
