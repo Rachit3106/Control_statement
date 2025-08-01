@@ -106,4 +106,19 @@ do {
   <li>End the program.</li>
 </ol>
 <br>
+<h2>Algorithm: Print "SIT" 5 Times using <code>for</code> Loop in C++</h2>
+
+<ol>
+  <li>Start the program.</li>
+  <li>Use a <code>for</code> loop with the following structure:
+    <ul>
+      <li>Initialize loop counter <code>i = 0</code>.</li>
+      <li>Set the loop condition <code>i &lt; 5</code> to run the loop 5 times.</li>
+      <li>Increment <code>i</code> by 1 in each iteration.</li>
+    </ul>
+  </li>
+  <li>Inside the loop body, print <code>"SIT"</code> followed by a newline.</li>
+  <li>Repeat the loop until <code>i</code> reaches 5.</li>
+  <li>Exit the loop and end the program.</li>
+</ol>
 
