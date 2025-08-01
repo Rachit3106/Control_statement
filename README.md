@@ -83,4 +83,27 @@ do {
 <p>
    Loops are essential part of programming and helps programmer to reduce the lines of code where there is patterns in part of loops also while and do while loop plays crucial role where iterations are not known so loops terminate after the condition is met.
 </p>
+<br>
+<h2>Algorithm: Password Checker using <code>do-while</code> Loop in C++</h2>
+
+<ol>
+  <li>Start the program.</li>
+  <li>Initialize a string variable <code>pass</code> with the correct password (e.g., <code>"01232@"</code>).</li>
+  <li>Declare a string variable <code>input</code> to store user input.</li>
+  <li>Start a <code>do-while</code> loop:
+    <ul>
+      <li>Prompt the user to <strong>enter the password</strong>.</li>
+      <li>Read the user input into the <code>input</code> variable.</li>
+      <li>Check if <code>input == pass</code>:
+        <ul>
+          <li>If <strong>true</strong>: Display <code>"Access Granted"</code> and <strong>break</strong> the loop.</li>
+          <li>If <strong>false</strong>: Display <code>"Wrong Password, Try Again!"</code>.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Continue the loop while <code>input != pass</code>.</li>
+  <li>End the program.</li>
+</ol>
+<br>
 
